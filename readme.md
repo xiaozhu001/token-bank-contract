@@ -63,7 +63,7 @@
 > collection 0：未收藏，1：已收藏； 
 > burning 0：不能燃烧，1：可以燃烧； 
 > increase 0：不能增发，1：可以增发；
-> tokenType 0：erc20，1：erc721
+> tokenType 1：erc20，2：erc721
 
 #### 4、根据简称搜索token
 
