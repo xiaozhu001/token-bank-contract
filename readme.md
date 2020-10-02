@@ -1,4 +1,13 @@
-### 一、接口文档
+### 一、合约
+一共分为TokenBank、ERC20、ERC721、Sensitive、BizMarket、UserToken 合约
+
+- TokenBank：主要合约逻辑。其中实现了创建token以及合约的基本信息存储。
+- ERC20、ERC721：两个token的标准合约
+- Sensitive：敏感词合约
+- BizMarket：营销合约，配置广告等业务逻辑
+- UserToken：用户token合约。
+
+### 二、接口文档
 
 #### 1、查询top-token
 
@@ -289,7 +298,3 @@
 
 注释：
 > 这里调用的是token的合约方法
-
-### 二、说明
-
-一共分为TokenBank、ERC20、ERC721、Sensitive、BizMarket、UserToken 合约
